@@ -31,6 +31,7 @@
         android:layout_marginEnd="16dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
 
@@ -64,5 +65,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/t" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,4 +3,5 @@
     <string name="raw">Raw</string>
     <string name="local">Local</string>
     <string name="url">URL</string>
+    <string name="t">T</string>
 </resources>
